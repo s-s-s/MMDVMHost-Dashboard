@@ -1,6 +1,7 @@
 <?php
 header("Cache-Control: no-cache, must-revalidate");
 header("Expires: Sat, 26 Jul 1997 05:00:00 GMT");
+//ini_set('memory_limit', '256M'); //
 // do not touch this includes!!! Never ever!!!
 include "config/config.php";
 
