@@ -1,5 +1,5 @@
 <?php
-
+// ini_set('max_execution_time', 90); //By default 30 seconds
 function getMMDVMHostVersion() {
    // returns creation-time or version of MMDVMHost as version-number
    $filename = MMDVMHOSTPATH."/MMDVMHost";
