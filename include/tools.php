@@ -1,4 +1,5 @@
 <?php
+ini_set('max_execution_time', 90); // Set time of work of script. By default 30 seconds
 function format_time($seconds) {
    $secs           = intval($seconds % 60);
    $mins           = intval($seconds / 60 % 60);
